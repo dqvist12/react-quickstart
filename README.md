@@ -6,7 +6,7 @@ react quickstart - pre-configured with webpack and scss , functioning object scs
 
 <img alt="Logo" align="right" src="https://create-react-app.dev/img/logo.svg" width="20%" />
 
-#React quickstart
+##React quickstart
 
 Pre-configured with webpack and scss , functioning object scss usage and classname obfuscation
 

@@ -1,16 +1,35 @@
-# Create React App
-react quickstart - pre-configured with webpack and scss , functioning object scss usage and classname obfuscation
+# React Awesome Parallax
+react-awesome-parallax is a library that easily allows you to add parallax scrolling to any React component.
 
-
-<img alt="Logo" align="right" src="https://create-react-app.dev/img/logo.svg" width="20%" />
-
-## React quickstart
-
-Pre-configured with webpack and scss , functioning object scss usage and classname obfuscation
-
-## Start
-
-```sh
-npm install
-npm run start
+## Installation
+```bash
+npm install --save react-awesome-parallax
 ```
+
+## Guide
+### Basic use
+```bash
+import Parallax from 'react-awesome-parallax';
+
+class MyComponent extends React.Component {
+    render() {
+        return (
+            <div>
+                <Parallax speed={5}>
+                    <h1>Hello</h1>
+                </Parallax>
+
+                <Parallax speed={3}>
+                    <h1>world</h1>
+                </Parallax>
+            </div>
+        );
+    }
+}
+
+```
+
+### Props
+|Name                   |Type         |Range         |Default Value       |
+|-----------------------|-------------|--------------|--------------------|
+|speed                  |Numeric      |0-10          |10                  |
